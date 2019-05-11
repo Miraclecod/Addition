@@ -7,7 +7,7 @@ new Vue({
         value1: 0.1,
         value2: 0.2
     },
-    computed: {
+    methods: {
        sum(){
            alert((this.value1 + this.value2).toFixed(1));
        }
